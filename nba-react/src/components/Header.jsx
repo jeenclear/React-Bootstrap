@@ -47,17 +47,19 @@ function Header() {
       <div className="custom-menu-wrap">
         <div class="custom-menu">
           <ul>
-            <li><a href="#">
-              <span style={styles.weltext}>Welcome</span><br/>
-              <span>Hi, Edjeen</span>
-            </a></li>
+            <li>
+              <a href="/admin" target="_blank">
+                <span style={styles.weltext}>Welcome</span><br/>
+                <span>Hi, Edjeen</span>
+              </a>
+            </li>
             <li><a href="#">Menu 1</a></li>
             <li><hr /></li>
             <li><a href="#">Menu 1</a></li>
             <li><a href="#">Menu 1</a></li>
             <li><a href="#">Menu 1</a></li>
             <li><hr /></li>
-            <li><a href="#">Deposit Dapper Balances</a></li>
+            <li><a href="/admin" target="_blank">Deposit Dapper Balances</a></li>
             <li><a href="/admin/profile" target="_blank">Account Settings</a></li>
           </ul>
         </div>
@@ -79,7 +81,7 @@ function Header() {
         {['lg'].map((expand) => (
           <Navbar key={expand} expand={expand} bg="dark" data-bs-theme="dark" className="xs-3 mb-3">
             <Container fluid>
-              <Navbar.Brand href="#">
+              <Navbar.Brand href="/">
                 <img src={service1} style={styles.logo}  alt="" /><span style={styles.logoText}>BETA</span>
               </Navbar.Brand>
               <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -96,19 +98,19 @@ function Header() {
                 <Offcanvas.Body>
                   
                   <Nav className="justify-content-start flex-grow-1 pe-3">
-                    <Nav.Link href="#action1">PACKS</Nav.Link>
-                    <Nav.Link href="#action2">MARKETPLACE</Nav.Link>
+                    <Nav.Link href="/about">PACKS</Nav.Link>
+                    <Nav.Link href="/asdfdsf">MARKETPLACE</Nav.Link>
 
                     <NavDropdown
                       title="DISCOVER"
                       id={`offcanvasNavbarDropdown-expand-${expand}`}
                     >
-                      <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                      <NavDropdown.Item href="#action4">
+                      <NavDropdown.Item href="/asdfds">Action</NavDropdown.Item>
+                      <NavDropdown.Item href="/about">
                         Another action
                       </NavDropdown.Item>
                       <NavDropdown.Divider />
-                      <NavDropdown.Item href="#action5">
+                      <NavDropdown.Item href="/about">
                         Something else here
                       </NavDropdown.Item>
                     </NavDropdown>
@@ -117,12 +119,12 @@ function Header() {
                       title="PLAY"
                       id={`offcanvasNavbarDropdown-expand-${expand}`}
                     >
-                      <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                      <NavDropdown.Item href="#action4">
+                      <NavDropdown.Item href="/asdfadsf">Action</NavDropdown.Item>
+                      <NavDropdown.Item href="/about">
                         Another action
                       </NavDropdown.Item>
                       <NavDropdown.Divider />
-                      <NavDropdown.Item href="#action5">
+                      <NavDropdown.Item href="/about">
                         Something else here
                       </NavDropdown.Item>
                     </NavDropdown>
@@ -131,12 +133,12 @@ function Header() {
                       title="MY COLLECTION"
                       id={`offcanvasNavbarDropdown-expand-${expand}`}
                     >
-                      <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                      <NavDropdown.Item href="#action4">
+                      <NavDropdown.Item href="/about">Action</NavDropdown.Item>
+                      <NavDropdown.Item href="/about">
                         Another action
                       </NavDropdown.Item>
                       <NavDropdown.Divider />
-                      <NavDropdown.Item href="#action5">
+                      <NavDropdown.Item href="/asdf">
                         Something else here
                       </NavDropdown.Item>
                     </NavDropdown>
@@ -145,12 +147,12 @@ function Header() {
                       title="COMMUNITY    "
                       id={`offcanvasNavbarDropdown-expand-${expand}`}
                     >
-                      <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                      <NavDropdown.Item href="#action4">
+                      <NavDropdown.Item href="/about">Action</NavDropdown.Item>
+                      <NavDropdown.Item href="/about">
                         Another action
                       </NavDropdown.Item>
                       <NavDropdown.Divider />
-                      <NavDropdown.Item href="#action5">
+                      <NavDropdown.Item href="/about">
                         Something else here
                       </NavDropdown.Item>
                     </NavDropdown>
