@@ -58,7 +58,7 @@ function Header() {
             <li><a href="#">Menu 1</a></li>
             <li><hr /></li>
             <li><a href="#">Deposit Dapper Balances</a></li>
-            <li><a href="#">Menu 1</a></li>
+            <li><a href="/admin/profile" target="_blank">Account Settings</a></li>
           </ul>
         </div>
       </div>

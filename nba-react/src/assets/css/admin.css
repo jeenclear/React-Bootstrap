@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,500,700&display=swap');
+
+body {
+  background: #1e1c22;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+
+}
+
+#root {
+  width: 100%;
+  padding: 0;
+}
+
+button {
+  background: #000;
+  box-shadow: 0px 10px 30px 0px rgba(82, 63, 105, 0.05);
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: unset;
+  margin: unset;
+}
+
+li {
+  padding: 14px;
+  transition: all linear 0.3s;
+}
+
+li:hover {
+  background: transparent;
+  cursor: pointer;
+  color: #fff;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.fontawedefault {
+  margin-right: 5px;
+}
+
+.fontawesome-marginleft {
+  margin-left: 5px;
+}
+
+.marbottom20 {
+  margin-bottom: 20px;
+}
+
+.martopandbottom30 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.marbottom40 {
+  margin-bottom: 40px;
+}
+
+/* Header */
+header .header_info {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+header .logo_text {
+  text-align: left;
+}
+
+header a.logo_text,
+header .logo_text a {
+  font-size: 27px;
+  color: #fff;
+  display: inline-block;
+}
+
+header .user_id {
+  text-align: right;
+}
+
+header .user_id img {
+  margin-right: 15px;
+}
+
+header .user_id a {
+  font-size: 12px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+header .user_id a:hover {
+  text-decoration: none;
+}
+
+.offcanvas {
+  background-color: #9900f0;
+  color: #fff;
+}
+
+.accounts_bar {
+  background-color: #9900f0;
+  color: #fff;
+  font-size: 14px;
+  padding: 20px;
+}
+
+/* Side Navbar Section */
+.side_navbar ul li {
+  padding: 0;
+}
+
+.side_navbar ul li a {
+  color: #cbbfda;
+  display: block;
+  padding: 12px 10px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.side_navbar ul li a svg {
+  margin-right: 10px;
+}
+
+.side_navbar ul li a:hover {
+  color: #fff;
+  opacity: 1;
+}
+
+.side_navbar hr {
+  color: #fff;
+}
+
+/* Content */
+.admin-content {
+  min-height: 300px;
+}
+
+.accounts-layout {
+  color: #fff;
+  text-align: left;
+}
+
+.accounts-1ouodll {
+    box-sizing: border-box;
+    min-width: 0;
+    border-top-color: #9900f0;
+    background-color: #2d2c32;
+    border-radius: 3px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.33);
+    border-top-style: solid;
+    border-top-width: 3px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* footer section*/
+.footer_admin_section {
+  color: #fff;
+  font-size: 13px;
+}
+
+.footer_admin_section .copyright a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer_admin_section ul {
+  text-align: right;
+}
+
+.footer_admin_section ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+.footer_admin_section ul li a {
+  color: #fff;
+  font-size: 11px;
+  display: inline-block;
+  padding: 0;
+  
+}
+/*# sourceMappingURL=style.css.map */

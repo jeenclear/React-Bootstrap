@@ -74,6 +74,16 @@
 }
 
 @media (max-width: 768px) {
+    /* Admin Header */
+    .header_info {
+        display: none;
+    }
+
+    /* Admin Sidebar */
+    .side_navbar {
+        display: none;
+    }
+
     .about_section {
         padding-left: 0;
         padding-right: 0;
@@ -108,6 +118,22 @@
     .team_text .team_text_right {
         text-align: center;
     }
+
+    /* Admin */
+    #account_panel .footer_admin_section {
+        text-align: left;
+    }
+    
+    #account_panel .footer_admin_section ul {
+        padding-top: 10px;
+    }
+
+    #account_panel .footer_admin_section ul li {
+        display: block;
+        text-align: left;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -131,8 +157,6 @@
     .slider_section .carousel-indicators li {
         margin: 0 2.5px;
     }
-
-
 
     .slider_section .box {
         flex-direction: column;
@@ -196,4 +220,16 @@
         max-width: 1170px;
     }
 
+}
+
+@media (min-width: 768px) {
+    /* Admin Header */
+    #account_panel .header_section .navbar {
+        display: none;
+    } 
+
+    /* Admin Panel */
+    #account_panel .container {
+        max-width: 720px;
+    }
 }
