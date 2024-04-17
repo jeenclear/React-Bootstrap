@@ -34,7 +34,7 @@
         padding-bottom: 20px;
     }
     .custom-menu {
-        background: transparent;
+        background: #ddd;
         border: 1px solid #eee;
         position: relative;
         left: 0;

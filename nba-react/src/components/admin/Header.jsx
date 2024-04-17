@@ -43,13 +43,13 @@ function Header() {
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                   <Nav className="justify-content-center flex-grow-1 pe-3">
-                    <Nav.Link href="/admin">Home</Nav.Link>
-                    <Nav.Link href="/admin/profile">Account Settings</Nav.Link>
-                    <Nav.Link href="/admin/asdfsdf">Security</Nav.Link>
-                    <Nav.Link href="/admin/erasr">Payment Methods</Nav.Link>
-                    <Nav.Link href="/admin/asdf">Inventory</Nav.Link>
+                    <Nav.Link href="/admin"><FontAwesomeIcon icon={faHome} className="fontawedefault10" />Home</Nav.Link>
+                    <Nav.Link href="/admin/profile"><FontAwesomeIcon icon={faTools} className="fontawedefault10" />Account Settings</Nav.Link>
+                    <Nav.Link href="/admin/asdfsdf"><FontAwesomeIcon icon={faLock} className="fontawedefault10" />Security</Nav.Link>
+                    <Nav.Link href="/admin/erasr"><FontAwesomeIcon icon={faEnvelope} className="fontawedefault10" />Payment Methods</Nav.Link>
+                    <Nav.Link href="/admin/asdf"><FontAwesomeIcon icon={faToolbox} className="fontawedefault10" />Inventory</Nav.Link>
                     <hr></hr>
-                    <Nav.Link href="/">Back to NBA Top Shot</Nav.Link>
+                    <Nav.Link href="/"><FontAwesomeIcon icon={faNeos} className="fontawedefault10" />Back to NBA Top Shot</Nav.Link>
                   </Nav>
                 </Offcanvas.Body>
               </Navbar.Offcanvas>

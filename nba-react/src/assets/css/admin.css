@@ -54,6 +54,10 @@ a:hover {
   margin-right: 5px;
 }
 
+.fontawedefault10 {
+  margin-right: 10px;
+}
+
 .fontawesome-marginleft {
   margin-left: 5px;
 }
@@ -152,6 +156,22 @@ header .user_id a:hover {
 .accounts-layout {
   color: #fff;
   text-align: left;
+}
+
+.accounts-ccksxp {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.accounts-8usw5u {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: block;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1;
 }
 
 .accounts-1ouodll {
